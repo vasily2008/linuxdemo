@@ -11,6 +11,6 @@ public class LinuxDemoController {
     @GetMapping("")
     public String hello(){
         System.out.println("hello world...");
-        return "OK linuxdemo git";
+        return "OK linuxdemo git ps -ef|grep tomcat";
     }
 }
